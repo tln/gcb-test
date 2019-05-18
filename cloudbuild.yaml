@@ -5,7 +5,7 @@ steps:
   - '--build-arg'
   - 'BUILD_ID=$BUILD_ID'
   - '-t'
-  - 'gcr.io/$PROJECT_ID/gcb-test:$BUILD_ID'
+  - 'gcr.io/$PROJECT_ID/gcb-test:latest'
   - '.'
 
-images: ['gcr.io/$PROJECT_ID/gcb-test:$BUILD_ID']
+images: ['gcr.io/$PROJECT_ID/gcb-test:latest']
